@@ -1,6 +1,7 @@
 ---
 title: "Picoe"
 layout: static
+featured_image: /main-featured.jpg
 ---
 
 Welcome to Picoe Software Solutions. We specialize in Computer Software architecture, design, and cross-platform solutions.

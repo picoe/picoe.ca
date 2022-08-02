@@ -10,6 +10,8 @@ PabloDraw is an [Ansi](https://en.wikipedia.org/wiki/ANSI_art) / [Ascii](https:/
 
 PabloDraw uses the awesome [Eto.Forms](https://github.com/picoe/Eto) cross-platform framework to provide native UI for *Windows*, *macOS*, and *Linux*.
 
+<div style="clear:both"></div>
+
 ## Download
 
 Download releases [here](https://github.com/cwensley/pablodraw/releases).
