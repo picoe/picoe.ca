@@ -1,0 +1,13 @@
+baseURL: 'http://example.org/'
+languageCode: "en-us"
+title: 'Picoe Software Solutions'
+theme: "ananke"
+# theme: "syna"
+sectionPagesMenu: "main"
+params:
+  mainSections: [news]
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
