@@ -2,19 +2,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Hugo: start",
-            "command": "hugo server -D",
-            "type": "shell",
-            "args": [],
-            "problemMatcher": [
-                "$tsc"
-            ],
-            "presentation": {
-                "reveal": "always"
-            },
-            "group": "build"
-        },
-        {
             "label": "Hugo: build",
             "command": "hugo",
             "type": "shell",

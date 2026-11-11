@@ -1,7 +1,21 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            // Node launcher used only to run hugo, so the Stop button kills the server.
+            "name": "Hugo: serve",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "hugo",
+            "runtimeArgs": ["server", "-D"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "Web Server is available at (http://\\S+)",
+                "uriFormat": "%s"
+            }
+        }
     ],
     "compounds": []
 }
